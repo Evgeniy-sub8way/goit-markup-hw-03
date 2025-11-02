@@ -25,13 +25,19 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-.header-page {
+.page-header {
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -121,6 +127,8 @@ a {
   text-align: center;
   color: #fff;
   margin-bottom: 48px;
+  max-width: 496px;
+  margin: 0 auto 48px;
 }
 
 .hero-button {
@@ -137,6 +145,10 @@ a {
   cursor: pointer;
   display: block;
   margin: 0 auto 48px auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
 }
 
 .hero-button:hover,
@@ -245,6 +257,16 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+}
+
+.section-portfolio-card {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.section-portfolio-item-title {
+  margin-bottom: 8px;
 }
 
 .section-portfolio-item {
